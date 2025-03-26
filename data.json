@@ -1,0 +1,314 @@
+{
+  "chatSessions": [
+    {
+      "id": 1,
+      "name": "John Mayers",
+      "role": "Accountant",
+      "status": "online",
+      "avatar": "https://picsum.photos/40?random=1",
+      "lastMessage": "Sure! I'll help you out...",
+      "messages": [
+        {
+          "sender": "John Mayers",
+          "text": "Hi, how can I help you?",
+          "type": "from-other"
+        },
+        {
+          "sender": "You",
+          "text": "I have slow internet issues.",
+          "type": "from-user"
+        },
+        {
+          "sender": "John Mayers",
+          "text": "Could you confirm your email address?",
+          "type": "from-other"
+        },
+        {
+          "sender": "You",
+          "text": "john.mayers@gmail.com",
+          "type": "from-user"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Tony Stark",
+      "role": "Engineer",
+      "status": "offline",
+      "avatar": "https://picsum.photos/40?random=2",
+      "lastMessage": "New suit idea, let's chat!",
+      "messages": [
+        {
+          "sender": "Tony Stark",
+          "text": "Hey, I have a new suit idea.",
+          "type": "from-other"
+        },
+        {
+          "sender": "You",
+          "text": "Sounds exciting, let's hear it!",
+          "type": "from-user"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "S. Johansson",
+      "role": "Manager",
+      "status": "online",
+      "avatar": "https://picsum.photos/40?random=3",
+      "lastMessage": "Meeting tomorrow at 10 AM",
+      "messages": [
+        {
+          "sender": "S. Johansson",
+          "text": "Don't forget our meeting tomorrow at 10 AM.",
+          "type": "from-other"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Natasha Romanoff",
+      "role": "Security Specialist",
+      "status": "offline",
+      "avatar": "https://picsum.photos/40?random=4",
+      "lastMessage": "Yes, I'm prepared. Let's go!",
+      "messages": [
+        {
+          "sender": "Natasha Romanoff",
+          "text": "Are you ready for the next mission?",
+          "type": "from-other"
+        },
+        {
+          "sender": "You",
+          "text": "Yes, I'm prepared. Let's go!",
+          "type": "from-user"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Bruce Banner",
+      "role": "Scientist",
+      "status": "busy",
+      "avatar": "https://picsum.photos/40?random=5",
+      "lastMessage": "Need more data for experiments.",
+      "messages": [
+        {
+          "sender": "Bruce Banner",
+          "text": "I'm running low on test data. Can you help?",
+          "type": "from-other"
+        },
+        {
+          "sender": "You",
+          "text": "Sure, I'll gather some metrics for you.",
+          "type": "from-user"
+        },
+        {
+          "sender": "Bruce Banner",
+          "text": "Need more data for experiments.",
+          "type": "from-other"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Steve Rogers",
+      "role": "Captain",
+      "status": "busy",
+      "avatar": "https://picsum.photos/40?random=6",
+      "lastMessage": "We stand by our values.",
+      "messages": [
+        {
+          "sender": "Steve Rogers",
+          "text": "We stand by our values.",
+          "type": "from-other"
+        },
+        {
+          "sender": "You",
+          "text": "Always, Captain.",
+          "type": "from-user"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Clint Barton",
+      "role": "Archer",
+      "status": "offline",
+      "avatar": "https://picsum.photos/40?random=7",
+      "lastMessage": "Need a vantage point for better aim.",
+      "messages": [
+        {
+          "sender": "Clint Barton",
+          "text": "I need a higher vantage point to improve my aim.",
+          "type": "from-other"
+        },
+        {
+          "sender": "You",
+          "text": "Check the rooftop near the tower.",
+          "type": "from-user"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Nick Fury",
+      "role": "Director",
+      "status": "busy",
+      "avatar": "https://picsum.photos/40?random=8",
+      "lastMessage": "We're counting on you.",
+      "messages": [
+        {
+          "sender": "Nick Fury",
+          "text": "We're counting on you to handle this mission discreetly.",
+          "type": "from-other"
+        },
+        {
+          "sender": "You",
+          "text": "Understood, Director. No mistakes.",
+          "type": "from-user"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Peter Parker",
+      "role": "Student",
+      "status": "offline",
+      "avatar": "https://picsum.photos/40?random=9",
+      "lastMessage": "Need help with homework!",
+      "messages": [
+        {
+          "sender": "Peter Parker",
+          "text": "I need help with my homework!",
+          "type": "from-other"
+        },
+        {
+          "sender": "You",
+          "text": "Sure, what subject?",
+          "type": "from-user"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Carol Danvers",
+      "role": "Pilot",
+      "status": "busy",
+      "avatar": "https://picsum.photos/40?random=10",
+      "lastMessage": "I’m on my way back to Earth.",
+      "messages": [
+        {
+          "sender": "Carol Danvers",
+          "text": "I’m on my way back to Earth.",
+          "type": "from-other"
+        },
+        {
+          "sender": "You",
+          "text": "Great, see you soon!",
+          "type": "from-user"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Wanda Maximoff",
+      "role": "Researcher",
+      "status": "online",
+      "avatar": "https://picsum.photos/40?random=11",
+      "lastMessage": "Let me know if you need assistance.",
+      "messages": [
+        {
+          "sender": "Wanda Maximoff",
+          "text": "Let me know if you need any assistance with the project.",
+          "type": "from-other"
+        },
+        {
+          "sender": "You",
+          "text": "Thanks, Wanda. I'll reach out if I do.",
+          "type": "from-user"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Vision",
+      "role": "AI",
+      "status": "online",
+      "avatar": "https://picsum.photos/40?random=12",
+      "lastMessage": "I can process the data for you.",
+      "messages": [
+        {
+          "sender": "Vision",
+          "text": "I can process the data for you in seconds.",
+          "type": "from-other"
+        },
+        {
+          "sender": "You",
+          "text": "That would be very helpful, thanks.",
+          "type": "from-user"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Sam Wilson",
+      "role": "Pilot",
+      "status": "offline",
+      "avatar": "https://picsum.photos/40?random=13",
+      "lastMessage": "Cleared for takeoff!",
+      "messages": [
+        {
+          "sender": "Sam Wilson",
+          "text": "Cleared for takeoff! All systems good?",
+          "type": "from-other"
+        },
+        {
+          "sender": "You",
+          "text": "Yes, everything looks great.",
+          "type": "from-user"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Bucky Barnes",
+      "role": "Soldier",
+      "status": "busy",
+      "avatar": "https://picsum.photos/40?random=14",
+      "lastMessage": "Appreciate your backup.",
+      "messages": [
+        {
+          "sender": "Bucky Barnes",
+          "text": "Appreciate your backup on the last mission.",
+          "type": "from-other"
+        },
+        {
+          "sender": "You",
+          "text": "Anytime, Bucky. Glad to help.",
+          "type": "from-user"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "T'Challa",
+      "role": "King",
+      "status": "online",
+      "avatar": "https://picsum.photos/40?random=15",
+      "lastMessage": "Wakanda forever.",
+      "messages": [
+        {
+          "sender": "T'Challa",
+          "text": "Wakanda forever.",
+          "type": "from-other"
+        },
+        {
+          "sender": "You",
+          "text": "Indeed. I'm honored to serve.",
+          "type": "from-user"
+        }
+      ]
+    }
+  ]
+}

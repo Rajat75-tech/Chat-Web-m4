@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar (Left Panel) -->
+      <aside class="sidebar">
+        <header class="sidebar-header">
+          <h2>CHAT LIST</h2>
+          <div class="menu-wrapper">
+            <button class="menu-btn" onclick="toggleMenu()">Menu</button>
+            <div class="menu-dropdown hidden" id="menuDropdown">
+              <div class="menu-item">
+                <input
+                  type="text"
+                  placeholder="Search user..."
+                  class="menu-search"
+                  oninput="searchUser(event)"
+                />
+              </div>
+              <div class="menu-item">
+                <select onchange="changeTheme(event)">
+                  <option value="">Change Theme</option>
+                  <option value="default">Default</option>
+                  <option value="dark">Dark</option>
+                  <option value="teal">Teal</option>
+                  <option value="pink">Pink</option>
+                  <option value="purple">Purple</option>
+                  <option value="orange">Orange</option>
+                  <option value="green">Green</option>
+                  <option value="blue">Blue</option>
+                  <option value="red">Red</option>
+                  <option value="black">Black</option>
+                </select>
+              </div>
+              <div class="menu-item">
+                <select onchange="changeBackground(event)">
+                  <option value="">Change Background</option>
+                  <option value="bg1">Background 1</option>
+                  <option value="bg2">Background 2</option>
+                  <option value="bg3">Background 3</option>
+                  <option value="bg4">Background 4</option>
+                  <option value="bg5">Background 5</option>
+                  <option value="bg6">Background 6</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <div class="session-list" id="sessionList"></div>
+      </aside>
+
+      <!--Right Panel -->
+      <main class="chat-area">
+        <header class="chat-header">
+          <button class="back-btn" id="backBtn" onclick="backToChatList()">
+            ← Back
+          </button>
+
+          <div class="chat-header-user hidden" id="chatHeaderUser">
+            <div class="avatar-wrapper">
+              <img id="chatAvatar" src="" alt="User Avatar" class="avatar" />
+              <span id="statusDot" class="status-dot"></span>
+            </div>
+            <div class="info-wrapper">
+              <h2 id="chatTitle">Chat Details</h2>
+              <p id="chatSubtitle">User Role</p>
+            </div>
+          </div>
+          <button class="close-btn" onclick="closeChat()">X</button>
+        </header>
+
+        <div class="chat-content" id="chatContent">
+          <!-- Chat messages will appear here -->
+          <div class="placeholder-text">
+            Select a chat session from the left to view messages.
+          </div>
+        </div>
+
+        <footer class="chat-footer">
+          <div class="char-counter" id="charCounter">
+            Current characters: 0 | Current words: 0
+          </div>
+          <div class="input-wrapper">
+            <input
+              type="text"
+              id="messageInput"
+              placeholder="Type your message here..."
+              oninput="updateCharCount(this)"
+            />
+            <button onclick="sendMessage()">Send</button>
+          </div>
+        </footer>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
